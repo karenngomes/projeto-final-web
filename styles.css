@@ -1,0 +1,22 @@
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navbar {
+    padding: 0 2rem;
+}
+
+#logo {
+    height: 50px;
+}
+
+
+/* #main-content {
+    height: 500px;
+} */
+
+footer {
+    text-align: center;
+}
