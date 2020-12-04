@@ -6,14 +6,14 @@ let mainContentDiv = document.getElementById('main-content');
 
 function criaCard(dado) {
     let col = document.createElement('div');
-    col.setAttribute("class", "col-md-3 col-card");
+    col.setAttribute("class", "col-lg-3 col-md-6 coluna-card");
 
     let divCard = `
         <div class="card">
             <img class="card-img-top" src=${dado.img} />
 
             <div class="card-body">
-                <h6 class="card-title">${dado.name} </h6>
+                <h6 class="card-title">${dado.name}</h6>
                 <small class="card-subtitle"> Interpretador por: ${dado.portrayed}  </small>
             </div>
         </div>

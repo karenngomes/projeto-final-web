@@ -6,6 +6,12 @@
 
 .navbar {
     padding: 0 2rem;
+    background-color: white;
+    height: 5rem;
+}
+
+.navbar-brand {
+    margin-left: 0;
 }
 
 #logo {
@@ -13,10 +19,43 @@
 }
 
 
-/* #main-content {
-    height: 500px;
-} */
+#main-content {
+    margin-top: 8rem;
+}
+
+.coluna-card {
+    margin-bottom: 2rem;
+}
+
+.card {
+    min-height: 100%;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.18);
+    border: 1px solid transparent;
+    border-color: #ebebeb;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 29vw;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 0.8rem;
+}
 
 footer {
     text-align: center;
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1024px)  {
+    .card-img-top {
+        height: 45vw;
+    }
 }
